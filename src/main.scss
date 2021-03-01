@@ -1,0 +1,12 @@
+$body-bg: rgba(245, 248, 242, 0.801);
+$body-color: rgb(29, 2, 2);
+$theme-colors: (
+  "primary": #38384b,
+  "secondry": #1b1be6,
+);
+@import "~bootstrap";
+@import "~bootstrap-vue";
+
+#app {
+  color: unset;
+}
