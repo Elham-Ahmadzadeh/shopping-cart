@@ -1,7 +1,7 @@
 # shopping-cart
 the demo is:
-https://elham-ahmadzadeh.github.io/
 
+https://elham-ahmadzadeh.github.io/online-store
 
 ## Project setup
 ```
