@@ -25,5 +25,6 @@ button {
 }
 .cart-img {
   max-width: 1.75rem;
+  position: fixed;
 }
 </style>

@@ -51,31 +51,37 @@ export default {
 .container {
   position: relative;
 }
-.cart-btn,
+ .cart-btn,
 .circle-btn {
   position: absolute;
+ z-index: 9999;
 }
 .cart-btn {
-  top: -2rem;
-  left: 11rem;
+ top: 1rem;
+left: 13rem;
+  position: flex;
+  justify-content: space-around;
+  align-items: center;
   padding: 1px 1px;
+
 }
 .circle-btn {
   background: #43f6ff;
   padding: 2px 10px;
   border-radius: 50%;
   color: rgb(17, 0, 0);
-  top: -3rem;
-  left: 13rem;
+  top: 0;
+  left: 15rem;
+  position: fixed;
 }
 @media (min-width: 900px) {
   .cart-btn {
     left: 30rem;
-    top: -3rem;
+    top: 1.5rem;
   }
   .circle-btn {
-    left: 32.4rem;
-    top: -4rem;
+    left: 32rem;
+    top: 1rem;
   }
 }
 </style>

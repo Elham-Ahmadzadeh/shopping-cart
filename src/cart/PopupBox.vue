@@ -18,7 +18,7 @@
       </table>
       <section>
         <router-link to="/cart">
-          <cart-icon @click.native="showInvisibleCart" :cartIcon="true">
+          <cart-icon @click.native="showInvisibleCart" :cartIcon="false">
             show cart
           </cart-icon>
         </router-link>
@@ -52,20 +52,21 @@ export default {
 .box {
   width: 25rem;
   height: auto;
-  z-index: 1;
+  z-index: 9999;
   background-color: rgb(236, 242, 243);
   border-radius: 4px;
   padding: 1em 0.5em;
   border-radius: 10px;
   position: absolute;
-  top: 16px;
-  left: 30px;
+ top: 64px;
+left: 60px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   margin-left: -13px;
   box-shadow: 0px 0px 10px rgba(73, 74, 78, 0.1);
+    position: fixed;
 }
 .box:after {
   content: '';
@@ -76,6 +77,8 @@ export default {
   left: 10em;
   background: inherit;
   transform: rotate(45deg);
+
+
 }
 .table td {
   border-top: 1px rgb(233, 228, 228) solid;
@@ -107,6 +110,8 @@ button {
 }
 @media (min-width: 900px) {
   .box {
+     top: 100px;
+left: 11rem;
     margin-left: 9rem;
     padding: 3rem;
     margin-top: -2rem;
