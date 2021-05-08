@@ -1,7 +1,7 @@
 # shopping-cart
 the demo is:
 
-https://elham-ahmadzadeh.github.io/online-store
+https://reverent-curie-62c499.netlify.app
 
 ## Project setup
 ```
